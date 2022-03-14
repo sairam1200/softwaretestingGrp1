@@ -3,25 +3,25 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class TestCurrencyConverter{
-    private static CurrencyConverter cc;
+public class TestVatCalculator{
+    private static VatCalculator cc;
 
     @BeforeClass
     public static void setup(){
-        cc = new CurrencyConverter();
+        cc = new VatCalculator();
     }
 
     // test case 1
     @Test
-    public void test_dlr_to_rs(){
-        assertEquals(350, cc.dollar_to_rs(5));
+    public void test_Vat_UK(){
+        assertEquals(120, cc.VAT_UK(100));
     }
 
     @Test
-    public void test_sek_to_rs() { assertEquals( 90, cc.sek_to_rs(10)); }
+    public void test_Vat_SWE() { assertEquals( 125, cc.VAT_SWE(100)); }
 
     @Test
-    public void test_euro_to_rs() { assertEquals( 300, cc.euro_to_rs(3)); }
+    public void test_Vat_SPN() { assertEquals( 121, cc.VAT_SPN(100)); }
 
 }
 
