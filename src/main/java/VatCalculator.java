@@ -28,7 +28,7 @@ public class VatCalculator {
 
 
 //added ind rus vat tax
-
+//test cases updated
 
 
 
