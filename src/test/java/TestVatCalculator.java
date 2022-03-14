@@ -25,7 +25,7 @@ public class TestVatCalculator{
     public void test_Vat_SPN() { assertEquals( 121, cc.VAT_SPN(100)); }
 
     @Test
-    public void test_Vat_IND() { assertEquals( 0, cc.VAT_IND(100)); }
+    public void test_Vat_IND() { assertEquals( 118, cc.VAT_IND(100)); }
 
     @Test
     public void test_Vat_RUS() { assertEquals( 120, cc.VAT_RUS(100)); }
@@ -33,7 +33,7 @@ public class TestVatCalculator{
 
 }
 
-//adding incorrect value to test the test case is pass/fail
+//adding correct value to check test case will pass/fail
 
 //changes India russia commit
 //added two new test cases
