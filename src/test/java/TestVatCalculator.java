@@ -3,6 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+//required packages imported
 public class TestVatCalculator{
     private static VatCalculator cc;
 
