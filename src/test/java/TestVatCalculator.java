@@ -32,6 +32,7 @@ public class TestVatCalculator{
 
 }
 //changes India russia commit
+//added two new test cases
 
 // this recording is about Test driven development in ST_final Project.
 // first i am going to write the test case and then commit, push build in jenkins.
