@@ -17,4 +17,4 @@ public class IntegrationVat {
 
     }
 
-}//test case failed
+}

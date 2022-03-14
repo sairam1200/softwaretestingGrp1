@@ -26,9 +26,9 @@ public class TestVatCalculator{
     public void test_Vat_IND() { assertEquals( 118, cc.VAT_IND(100)); }
 
     @Test
-    public void test_Vat_RUS() { assertEquals( 120, cc.VAT_RUS(100)); }
+    public void test_Vat_RUS() { assertEquals( 1, cc.VAT_RUS(100)); }
 
 
 }
 
-// Doing some changes to get an
+// test cases failed
