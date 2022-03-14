@@ -14,7 +14,14 @@ public class VatCalculator {
         double rs3 = euro * 1.21 ;
         return (int) rs3;
     }
-
+    public int VAT_IND(int inr){
+        double rs4 = inr * 1.18 ;
+        return (int) rs4;
+    }
+    public int VAT_RUS(int rub){
+        double rs5 = rub * 1.20 ;
+        return (int) rs5;
+    }
 }
 
 
