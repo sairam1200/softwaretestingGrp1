@@ -14,9 +14,7 @@ public class TestVatCalculator{
 
     // test case 1
     @Test
-    public void test_Vat_UK(){
-        assertEquals(120, cc.VAT_UK(100));
-    }
+    public void test_Vat_UK() { assertEquals(120, cc.VAT_UK(100)); }
 
     @Test
     public void test_Vat_SWE() { assertEquals( 125, cc.VAT_SWE(100)); }
@@ -33,13 +31,3 @@ public class TestVatCalculator{
 
 }
 
-//adding correct value to check test case will pass/fail
-
-//changes India russia commit
-//added two new test cases
-
-// this recording is about Test driven development in ST_final Project.
-// first i am going to write the test case and then commit, push build in jenkins.
-// committing and pushing the code with correct code....
-
-// performing similar tasks for test cases 2 and test case 3.....!!
