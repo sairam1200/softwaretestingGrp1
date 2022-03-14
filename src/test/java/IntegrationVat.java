@@ -4,6 +4,7 @@ import org.junit.Test;
 public class IntegrationVat {
     public static  VatCalculator cc;
     @Test
+
     public void addtestPassInt()
     {
         Assert.assertEquals(120, cc.VAT_UK(100));
