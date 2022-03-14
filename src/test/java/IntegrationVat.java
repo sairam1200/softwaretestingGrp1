@@ -12,7 +12,7 @@ public class IntegrationVat {
         Assert.assertEquals(118, cc.VAT_IND(100));
         Assert.assertEquals(125, cc.VAT_SWE(100));
         Assert.assertEquals(120, cc.VAT_RUS(100));
-        Assert.assertEquals(1, cc.VAT_UK(100));
+        Assert.assertEquals(120, cc.VAT_UK(100));
 
 
     }
